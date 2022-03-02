@@ -1,0 +1,641 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.header {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid gray ;
+}
+.content{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.noidung_dautrang{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+.noidung_dautrang a{
+    width: 100px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.noidung_dautrang .logo{
+    width: 94%;
+    height: 28px;
+    display: block;
+    margin-top: 10px;
+   
+}
+.noidung_dautrang span{
+    display: block;
+    font-size: 7.5px;
+    color: #444444;
+    text-align: center;
+}
+.noidung_dautrang ul{
+    width: 800px;
+    display: inline-block;
+    vertical-align: top; 
+}
+.noidung_dautrang ul li {
+    width: 80px;
+    display: inline-block; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom:20px;
+}
+
+.noidung_dautrang ul li:hover{
+    color: rgb(0, 153, 255);
+    border-bottom: 2px solid #04b2f7 ;
+}
+.icon{
+    width: 30px;
+    float: right;
+    margin-top: 15px;
+}
+.tab{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;  
+}
+.hashtag-trending{
+    width: 600px;
+    display: inline-block;
+    background: url(https://static-znews.zadn.vn/images/stat.svg) no-repeat left center;
+}
+.hashtag-trending li{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(209, 208, 208);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.hashtag-trending :hover{
+    background-color: rgb(68, 68, 241);
+}
+.current-city{ 
+    float: right;
+}
+.danang{
+    display: inline-block;
+    background: url(https://static-znews.zadn.vn/images/icons/weather/v2/hazy.png) no-repeat right center;
+    background-size:20px;
+    padding-right: 30px;
+}
+.content{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.content_left{
+    width: 270px;
+    display: inline-block;
+}
+.content_left ul{
+    width: 270px;
+    display: inline-block;
+}
+.content_left ul li{
+    width: 270px;
+    display: inline-block;
+    border-bottom:1px solid whitesmoke;
+    padding-bottom:25px;
+    margin-bottom: 20px;
+}
+.content_left img{
+    width: 120px;
+    float: left;
+    margin-right:10px ;
+
+}
+.content_left h3{
+    font-size: 15px;
+    vertical-align: top;    
+}
+.content_right{
+    width: 800px;
+    float: right;
+}
+.smalldiv {
+    width: 490px;
+    display: block;
+    float: left;
+}
+.smalldiv img{
+    width: 490px;
+    display: inline-block;
+}
+.smalldiv p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.smalldiv ul li{
+    font-weight: bold;
+}
+.smalldiv2{
+    width: 290px;
+    float: right;
+}
+.smalldiv2 ul li{
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.smalldiv2 img{
+    width: 290px;
+    display: inline-block;
+}
+.smalldiv2 ul li h2{
+    font-size: 20px;
+}
+.content_bottom{ 
+    width: 1160px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffde76;
+    margin-top: 20px; 
+}
+.content_bottom_1 ul{
+    width: 700px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.content_bottom_1 ul li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.content_bottom_1 h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.content_bottom_2{
+    width: 1100px;
+    display:inline-block;
+    margin-left:29px;
+    margin-top: 10px;
+}
+
+.content_bottom_3{
+    width: 500px;
+    display: inline-block;
+    
+}
+.content_bottom_3 img{
+    width: 520px;
+    display: inline-block;
+
+}
+.content_bottom_3 h2{
+    margin-top: 30px; 
+    font-size: 30px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left top;
+    background-size:33px;
+    padding-left: 40px;
+}
+.content_bottom_3 p{
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.content_bottom_4{
+    width: 600px;
+    float:right;
+    
+}
+.content_bottom_4 ul{
+    width: 600px;
+    display: inline-block;
+    margin-left: 39px;
+}
+.content_bottom_4 ul li img{
+    width: 268px;
+    height: 177px;
+    display: inline-block;
+}
+.content_bottom_4 h3{
+    font-size: 17px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left top;
+    background-size:20px;
+    padding-left: 25px;
+}
+.content_bottom_4 ul li{
+    width: 290px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.books{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+.books h1{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom:5px;
+    border-bottom:1px solid gray ;
+    background: url(https://media.istockphoto.com/vectors/book-icon-vector-id1254373900?k=20&m=1254373900&s=170667a&w=0&h=OQ6JNrjZiJRrBIO2WUs9EJPdJCN8mDAnyPKOD_3sseU=) no-repeat left center;
+    background-size:30px;
+    padding-left: 30px;
+}
+.books ul{
+    width: 1100px;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.books img{
+    width: 204px;
+    display: inline-block;
+}
+.books h3{
+    font-size: 17px;
+}
+
+.books ul li{
+    width:204px;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin-right: 16px;
+}
+.books ul li:last-child{
+    margin: 0px;
+}
+.U23{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+.content_U23{
+    margin-top: 20px;
+    width: 760px;
+    display: inline-block;
+}
+.content_U23 img{
+    margin-right: 10px;
+    width: 257px;
+    float: left;
+}
+.content_U23 h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bontamGIO{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.bontamGIO h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left center;
+    background-size: 25px;
+    padding-left: 25px;
+
+}
+.bontamGIO ul{
+    width: 1100px;
+    display: inline-block;
+    border-bottom:2px solid whitesmoke;
+    border-top:px solid whitesmoke;
+}
+.bontamGIO ul li{
+    width: 252px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bontamGIO ul li:last-child{
+    margin: 0px;
+}
+.bontamGIO ul li span{
+    font-size: 12px;
+}
+.bontamGIO ul li p{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left top;
+    background-size: 15px;
+    padding-left: 25px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.MAGAZINE{
+    width: 100%;
+    height: 572px;
+    display: inline-block;   
+    background-color: whitesmoke;
+}
+.MAGAZINE h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left center;
+    background-size:20px;
+    padding-left: 25px;
+}
+.MAGAZINE2 {
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+ .MAGAZINE2 ul{
+    width: 1100px;
+    display: inline-block; 
+}
+.MAGAZINE2 ul li{
+    margin-right: 10px;
+    width: 260px;
+    height: 435px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+ .MAGAZINE2 ul li img{
+    width: 260px;
+    height: 435px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+    border-radius:5px;
+    transition: 0.5s all ease-in-out;
+}
+.MAGAZINE2 ul li:hover img{
+    transform: scale(1.5);
+}
+.MAGAZINE2 ul li:last-child{
+    margin:0px;
+}
+.MAGAZINE2 ul li .title{
+    background-color: #ffde76;
+    position: absolute;
+    top: 0;
+    left: 31%;
+    z-index: 2;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+}
+.MAGAZINE2 ul li p{
+    color: white;
+    position: absolute;
+    top: 230px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 3;
+    font-size: 20px;
+}
+.MAGAZINE2 ul li i{
+    background-color: red;
+    padding: 10px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 25px;
+    left: 45%;
+    z-index: 4;
+
+}
+.xuatban_sachhay ul{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.xuatban_sachhay ul li{
+    width: 258px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.xuatban_sachhay ul li:last-child{
+    margin: 0px;
+}
+.xuatban_sachhay ul li h1{
+    font-size: 18px;
+    margin-top: 20px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left center;
+    background-size:20px;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.xuatban_sachhay ul li img{
+    width: 258px;
+    display: inline-block;
+}
+.xuatban_sachhay ul li p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.xuatban_sachhay_2{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+x .xuatban_sachhay_2 ul{
+    width: 258px;
+    display: inline-block;
+}
+.xuatban_sachhay_2 ul li{
+    width: 258px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.xuatban_sachhay_2 img{
+    width: 105px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+}
+.xuatban_sachhay_2 span{
+    font-size: 10px;
+    font-weight: bold;   
+}
+.video{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.video h1{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png) no-repeat left center;
+    background-size: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video .iframe_1{
+    width: 800px;
+    height: 450px;
+    float: left; 
+}
+.video ul{
+    width: 280px;
+    height: 450px;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.video ul li{
+    width: 280px;
+    display: inline-block;
+    margin-bottom: 12.5px;
+}
+.video ul li iframe{
+    width: 120px;
+    height: 80px;
+    float: left;
+    margin-right: 10px
+}
+.video ul li h3{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.video ul li span{
+    font-size: 10px;
+}
+.video ul li:last-child{
+    margin: 0px;
+}
+.amthuc_phimanh{
+    width: 100%;
+    display: inline-block;
+    background-color: #f1faff;
+}
+.amthuc_phimanh_2{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.amthuc_phimanh_2 h3{
+    width: 352px;
+    display: inline-block;
+    color: #00b6af;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.amthuc_phimanh_3 {
+    width: 1100px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.amthuc_phimanh_3 ul li{
+    width: 352px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.amthuc_phimanh_3 img{
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+}
+.amthuc_phimanh_4 ul{
+    width: 352px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.amthuc_phimanh_4 ul li{
+    width: 350px;
+    display: inline-block;
+    border-top: 1px dashed gray;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    height: 191px;
+    background-color: #f7f7f7;
+    display: inline-block;
+}
+.page-wrapper{
+    width: 1100px;
+    display: block;
+    margin: 0 auto;
+}
+.left-side-info{
+    width: 487px;
+    display: inline-block;
+}
+.left-side-info p{
+    font-size: 13px;
+    display: block;
+    line-height: 1.7;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #8888;
+}
+.page-wrapper img{
+    margin-top: 20px;
+    width: 94px;
+    height: 29.5px;
+}
+.copyright-info{
+    width: 344px;
+    float: right;
+    margin-top: 100px;
+}
+.copyright-info{
+    line-height: 1.7;
+    font-size: 13px;
+    color: #8888;
+}
+
+@media only screen and (max-width:1023px){
+    .noidung_dautrang ul{
+        display: none;
+    }
+    .smalldiv{
+        width: 100%;
+    }
+    .smalldiv2 ul {
+        float: left;
+    }
+    .smalldiv2 ul li{
+        
+    }
+    .content_right{
+        width: 50%;
+        float: left;
+    }
+    .content_left{
+        width: 50%;
+    }
+}
